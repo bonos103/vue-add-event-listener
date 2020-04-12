@@ -38,5 +38,5 @@ workflows:
           requires:
             - install
           filters:
-            branch:
+            branches:
               only: /^master$/
