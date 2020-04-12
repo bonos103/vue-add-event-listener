@@ -34,7 +34,7 @@ workflows:
   deploy-vue-event-listener:
     jobs:
       - install
-      - build
+      - build:
           requires:
             - install
           filters:
