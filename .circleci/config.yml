@@ -5,7 +5,7 @@ defaults: &defaults
   working_directory: ~/repo
 jobs:
   install:
-    <<: *default
+    <<: *defaults
     steps:
       - checkout
       - restore_cache:
