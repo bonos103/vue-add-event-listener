@@ -2,9 +2,11 @@
   "name": "vue-event-listener",
   "version": "1.0.0",
   "description": "removeEventListener is called automatically when a Vue instance has been destroyed",
-  "main": "dist/index.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.min.js",
   "scripts": {
-    "build": "parcel build index.js"
+    "build": "rollup --config build/rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,8 @@
   },
   "homepage": "https://github.com/bonos103/vue-event-listener#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
+    "@rollup/plugin-buble": "^0.21.2",
+    "rollup": "^2.6.0",
     "vue": "^2.6.11"
   }
 }
