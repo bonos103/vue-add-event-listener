@@ -1,4 +1,4 @@
-import buble from 'rollup-plugin-buble' // 適切にブラウザをサポートするトランスパイラおよびポリフィル
+import buble from '@rollup/plugin-buble' // 適切にブラウザをサポートするトランスパイラおよびポリフィル
 
 const globals = {
   vue: 'Vue',
