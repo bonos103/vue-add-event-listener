@@ -1,0 +1,27 @@
+{
+  "name": "vue-event-listener",
+  "version": "1.0.0",
+  "description": "removeEventListener is called automatically when a Vue instance has been destroyed",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "parcel build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonos103/vue-event-listener.git"
+  },
+  "keywords": [
+    "vue",
+    "addEventListener"
+  ],
+  "author": "Ryohei Tomiyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bonos103/vue-event-listener/issues"
+  },
+  "homepage": "https://github.com/bonos103/vue-event-listener#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "vue": "^2.6.11"
+  }
+}
