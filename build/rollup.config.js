@@ -10,6 +10,7 @@ export default {
       {
         file: 'dist/index.umd.js',
         format: 'umd',
+        name: 'VueAddEventListener',
         globals,
       },
       {
@@ -20,6 +21,7 @@ export default {
       {
         file: 'dist/index.min.js',
         format: 'iife',
+        name: 'VueAddEventListener',
         globals,
       },
     ],
