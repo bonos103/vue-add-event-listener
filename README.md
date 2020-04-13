@@ -1,6 +1,6 @@
 # vue-add-event-listener
 
-[![CircleCI](https://circleci.com/gh/bonos103/vue-add-event-listener/tree/master.svg?style=svg)](https://circleci.com/gh/bonos103/vue-add-event-listener/tree/master)
+[![CircleCI](https://circleci.com/gh/bonos103/vue-add-event-listener/tree/master.svg?style=shield)](https://circleci.com/gh/bonos103/vue-add-event-listener/tree/master)
 
 A plugin call removeEventListener automatically when a VueInstance has been destroyed.
 
