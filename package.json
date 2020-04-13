@@ -1,5 +1,5 @@
 {
-  "name": "vue-event-listener",
+  "name": "vue-add-event-listener",
   "version": "0.0.1",
   "description": "removeEventListener is called automatically when a Vue instance has been destroyed",
   "main": "dist/index.umd.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bonos103/vue-event-listener.git"
+    "url": "git+https://github.com/bonos103/vue-add-event-listener.git"
   },
   "keywords": [
     "vue",
