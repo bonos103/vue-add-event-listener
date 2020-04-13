@@ -24,7 +24,7 @@ new Vue({
 }).$mount('#app')
 ```
 
-In component, you can use `this.$listen` instead of `addEventListener`. You don't need to call `removeEventListner`, when a instance has been destroyed.
+In component, you can use `this.$listen` instead of `addEventListener`. You don't need to call `removeEventListener`, when a instance has been destroyed.
 
 ```js
 export default {
