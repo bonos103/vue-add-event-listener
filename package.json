@@ -1,7 +1,7 @@
 {
   "name": "vue-add-event-listener",
-  "version": "0.0.1",
-  "description": "removeEventListener is called automatically when a Vue instance has been destroyed",
+  "version": "1.0.0",
+  "description": "AddEventListener plugin for Vue",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.min.js",
