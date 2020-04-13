@@ -28,15 +28,34 @@ jobs:
       - attach_workspace:
           at: ~/repo
       - run: yarn build
+  
+  deploy:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
+      - run: npm publish
 
 workflows:
   version: 2
   deploy-vue-event-listener:
     jobs:
-      - install
+      - install:
+          filters:
+            branches:
+              only: /^master/
       - build:
           requires:
             - install
           filters:
             branches:
               only: /^master/
+      - deploy:
+          requires:
+            - install
+            - build
+          filters:
+            branches:
+              only: /^master/
+          
