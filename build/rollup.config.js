@@ -19,9 +19,8 @@ export default {
         globals,
       },
       {
-        file: 'dist/index.min.js',
-        format: 'iife',
-        name: 'VueAddEventListener',
+        file: 'dist/index.cjs.js',
+        format: 'cjs',
         globals,
       },
     ],
