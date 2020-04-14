@@ -6,7 +6,6 @@
 
   var VueAddEventListener = {
     install: function install(Vue) {
-      console.log(("hoge " + Vue));
       Vue.prototype.$listen = function(target, eventType, callback) {
         var self = this;
         if (!self._eventRemovers) {
