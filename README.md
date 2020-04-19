@@ -37,3 +37,11 @@ export default {
   },
 }
 ```
+
+## Syntax
+
+```js
+this.$listen(target, type, listener, options)
+
+// ==> target.addEventLister(type, listener, options)
+```

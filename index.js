@@ -1,15 +1,15 @@
 const VueAddEventListener = {
   install(Vue) {
-    Vue.prototype.$listen = function(target, eventType, callback) {
+    Vue.prototype.$listen = function(target, eventType, callback, options) {
       const self = this
       if (!self._eventRemovers) {
         self._eventRemovers = []
       }
-      target.addEventListener(eventType, callback)
+      target.addEventListener(eventType, callback, options)
       self._eventRemovers.push({
         target,
         remove() {
-          target.removeEventListener(eventType, callback)
+          target.removeEventListener(eventType, callback, options)
           self._eventRemovers = self._eventRemovers.filter(event => event !== this)
         },
       })
