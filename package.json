@@ -1,6 +1,6 @@
 {
   "name": "vue-add-event-listener",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "AddEventListener plugin for Vue",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
